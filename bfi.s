@@ -6,8 +6,8 @@
 ;   下の !set OS を "freebsd" / "linux" のどちらかにするだけで切り替わる。
 ;   (以前はソース中の .equ を手で書き換える必要があった)
 ;
-;   python3 axx.py x86_64.axx bf.s -o bf.o --osabi FreeBSD && ld -o bf bf.o
-;   python3 axx.py x86_64.axx bf.s -o bf.o --osabi Linux   && ld -o bf bf.o
+;   python3 axx.py x86_64.axx bfi.s -o bf.o --osabi FreeBSD && ld -o bf bf.o
+;   python3 axx.py x86_64.axx bfi.s -o bf.o --osabi Linux   && ld -o bf bf.o
 ;
 ;   展開結果だけを見たいとき:
 ;     python3 axx.py x86_64.axx bf.s -P
